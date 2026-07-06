@@ -75,6 +75,6 @@ print(SI)
 
 number = float(input("Enter number: "))
 integer_part = int(number)
-fractional_part = float(number)
+fractional_part = number - integer_part
 print("Integer part:", integer_part)
 print("Fractional part:", fractional_part)
