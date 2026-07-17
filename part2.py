@@ -14,7 +14,7 @@ elif salary <= 70000 and salary >= 30000:
 else:
   print("Final tax rate is 25%")
 
-#Q2:Write a function that takes two integers a and b prints all even numbers between them (inclusive)
+#Q2:Write a function that takes two integers a and b prints all even numbers between them (inclusive).
 def even_num(a,b):
   for i in range(a, b + 1):
     if i % 2 == 0:
@@ -28,12 +28,12 @@ def print_digits(n):
     print(var)
 print_digits(312)
 
-#Q4:Write a function to return the count the number of digits in a number, n
+#Q4:Write a function to return the count the number of digits in a number, n.
 def count_digits(n):
   return len(str(n))
 print(count_digits(312))
 
-#q5:Write a function to return the sum of digits in a number, n
+#q5:Write a function to return the sum of digits in a number, n.
 def sum_of_digits(n):
   total = 0
   for digit in str(n):
@@ -41,12 +41,12 @@ def sum_of_digits(n):
   return total
 print(sum_of_digits(312))
 
-#Q6:Write a program to print all numbers from 1 to 100 that are divisible by both 3 and 5
+#Q6:Write a program to print all numbers from 1 to 100 that are divisible by both 3 and 5.
 for i in range(1, 101):
   if i % 3 == 0 and i % 5 == 0:
     print(i)
 
-#Q7:Design a program to continuously input a number from user & print if it is positive or negative until the user enters “Quit”
+#Q7:Design a program to continuously input a number from user & print if it is positive or negative until the user enters “Quit”.
 while True:
   user_input = input("Enter a number: ")
   if user_input == "quit":
@@ -59,7 +59,7 @@ while True:
     else:
       print("Zero")
 
-#Q8:Letʼs create a simple calculator that performs arithmetic operations. Create a function calculator(a,b,operation) that performs addition, subtraction, multiplication, or division based on the parameter. operation [parameter can have values '+', '-', '*', '/']
+#Q8:Letʼs create a simple calculator that performs arithmetic operations. Create a function calculator(a,b,operation) that performs addition, subtraction, multiplication, or division based on the parameter. operation [parameter can have values '+', '-', '*', '/'].
 def calculator(a, b, operation):
   if operation == '+':
     return a + b
@@ -97,7 +97,7 @@ print(is_prime(1))
 #Q10:Letʼs create a“Number Guessing Game”.Givenasecretnumber(alreadydecidedbyyou),writeaprogramthataskstheusertoguessitandprints:
 #high•if the guess is above the number"
 #Too low•if the guess is below"
-#Correct!•if the guess matches
+#Correct!•if the guess matches.
 a = int(input("Enter a secret number: "))
 if a > 0:
   print("Too high")
