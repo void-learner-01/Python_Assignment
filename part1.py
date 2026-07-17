@@ -1,7 +1,7 @@
 # AssignmentProblems
 
 # Q1.Write a program that asks the user for their name and age, then prints a sentence like:
-# Hello Shradha, you are 21 years old!
+# Hello Shradha, you are 21 years old!.
 
 name = input("Enter a name: ")
 age = input("Enter your age: ")
@@ -51,27 +51,27 @@ a,b = b,a
 
 print(a,b)
 
-#Q7.Ask the user for a temperature in Celsius (as a string input). Convert it to a float, then calculate and print the temperature in Fahrenheit. The conversion formula is: Fahrenheit = (Celsius * (9/5)) + 32
+#Q7.Ask the user for a temperature in Celsius (as a string input). Convert it to a float, then calculate and print the temperature in Fahrenheit. The conversion formula is: Fahrenheit = (Celsius * (9/5)) + 32.
 
 Cel = input("Enter temperature: ")
 Celsius = float(Cel)
 Fahrenheit = (Celsius * (9/5)) + 32
 print(Fahrenheit)
 
-#Q8.Take the radius as user input and print the area. Use the formula: π * (radius ** 2) (value of π = 3.14)
+#Q8.Take the radius as user input and print the area. Use the formula: π * (radius ** 2) (value of π = 3.14).
 
 radius = int(input("Enter radius: "))
 area = 3.14 * (radius ** 2)
 print(area)
 
-#Q9.Ask the userfor:Principal(P),Rate(R),Time(T).Convertalltoandcomputesimpleinterest:Q9floatSI=(P∗R∗T)/100
+#Q9.Ask the userfor:Principal(P),Rate(R),Time(T).Convertalltoandcomputesimpleinterest:Q9floatSI=(P∗R∗T)/100.
 P = float(input("Enter Principal: "))
 R = float(input("Enter Rate: "))
 T = float(input("Enter Time: "))
 SI = (P * R * T) / 100
 print(SI)
 
-#Q10.Take a decimal number as input (like 45.78) and output its: • integer part (45) • fractional part (-0.78)
+#Q10.Take a decimal number as input (like 45.78) and output its: • integer part (45) • fractional part (-0.78).
 
 number = float(input("Enter number: "))
 integer_part = int(number)
